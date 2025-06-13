@@ -1,0 +1,465 @@
+[
+  {
+    "id": 1,
+    "title": "Les Figures de l'Ombre",
+    "image": "/f1.jpg",
+    "year": 2016,
+    "theme": "Femmes et sciences",
+    "summary": "L’histoire vraie de femmes afro-américaines ayant contribué aux calculs essentiels de la NASA durant la conquête spatiale.",
+      "description": "Un hommage puissant à l'intelligence et au courage de femmes noires dans une Amérique ségrégationniste. Ce film met en valeur l'apport des femmes dans la science et offre un excellent point de départ pour parler de diversité, d'égalité et de mathématiques appliquées.",
+    "vocab": ["NASA", "mathématiques", "discrimination", "astronomie"],
+    "quiz": [
+      {
+        "question": "Quel était le travail principal de Katherine Johnson ?",
+        "choices": ["Astronaute", "Physicienne", "Mathématicienne", "Secrétaire"],
+        "answer": "Mathématicienne"
+      }
+    ],
+    "resources": [
+      {
+        "title": "NASA - Katherine Johnson",
+        "url": "https://www.nasa.gov/content/katherine-johnson-biography"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Interstellar",
+    "image": "/f2.jpg",
+    "year": 2014,
+    "theme": "Espace & physique",
+    "summary": "Une mission spatiale visant à trouver une nouvelle planète habitable pour l'humanité, mêlant amour, temps et science.",
+     "description": "Un film captivant qui vulgarise des concepts complexes de physique tels que la relativité, les trous noirs et le temps. Il stimule la curiosité scientifique et aborde des dilemmes humains dans un contexte cosmique.",
+    "vocab": ["trou noir", "relativité", "gravité", "espace-temps"],
+    "quiz": [
+      {
+        "question": "Quel est le principal thème scientifique d'Interstellar ?",
+        "choices": ["Chimie", "Génétique", "Relativité", "Optique"],
+        "answer": "Relativité"
+      }
+    ],
+    "resources": [
+      {
+        "title": "NASA - Trou noir et relativité",
+        "url": "https://www.nasa.gov/blackholes"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Erin Brockovich",
+    "image": "/f3.jpg",
+    "year": 2000,
+    "theme": "Justice environnementale",
+    "summary": "Erin mène une enquête sur une entreprise accusée de pollution, révélant un scandale sanitaire à grande échelle.",
+       "description": "Une œuvre inspirante sur la justice environnementale, qui montre comment une citoyenne peut défendre les droits de communautés affectées par la pollution. Parfait pour sensibiliser aux enjeux de santé publique et d'activisme juridique.",
+    "vocab": ["pollution", "toxicologie", "avocat", "justice"],
+    "quiz": [
+      {
+        "question": "Que dénonce le film ?",
+        "choices": ["Fraude fiscale", "Pollution de l’eau", "Vol de brevets", "Abus de pouvoir"],
+        "answer": "Pollution de l’eau"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Greenpeace - Pollution industrielle",
+        "url": "https://www.greenpeace.fr"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "12 Years a Slave",
+    "image": "/f4.jpg",
+    "year": 2013,
+    "theme": "Esclavage et histoire américaine",
+    "summary": "Un homme libre est enlevé et vendu comme esclave, dans une Amérique encore divisée par le racisme.",
+    "description": "Ce témoignage bouleversant illustre la cruauté de l’esclavage et la résistance d’un homme libre. Un support essentiel pour enseigner l’histoire des droits civiques et les luttes contre la ségrégation raciale.",
+    "vocab": ["esclavage", "droits civiques", "abolition", "ségrégation"],
+    "quiz": [
+      {
+        "question": "Combien de temps Solomon a-t-il passé en esclavage ?",
+        "choices": ["5 ans", "10 ans", "12 ans", "20 ans"],
+        "answer": "12 ans"
+      }
+    ],
+    "resources": [
+      {
+        "title": "UNESCO - Esclavage et histoire",
+        "url": "https://en.unesco.org/themes/fostering-rights/international-day-remembrance-slave-trade"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "The Social Network",
+    "image": "/f5.jpg",
+    "year": 2010,
+    "theme": "Informatique & Startups",
+    "summary": "L'histoire de la création de Facebook et les conflits juridiques qui ont suivi.",
+      "description": "Plonge dans la naissance de Facebook pour explorer les dynamiques du monde numérique, de la création d’entreprise à l’éthique des données. Un bon outil pour parler de technologie, d’entrepreneuriat et de responsabilité sociale.",
+    "vocab": ["algorithme", "start-up", "réseau social", "données"],
+    "quiz": [
+      {
+        "question": "Quel site est au centre du film ?",
+        "choices": ["Google", "Instagram", "Twitter", "Facebook"],
+        "answer": "Facebook"
+      }
+    ],
+    "resources": [
+      {
+        "title": "France Inter - L'impact des réseaux sociaux",
+        "url": "https://www.radiofrance.fr/franceinter"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Wall-E",
+    "image": "/f6.jpg",
+    "year": 2008,
+    "theme": "Écologie et futur",
+    "summary": "Un petit robot nettoyeur seul sur Terre cherche à sauver la planète de la pollution extrême.",
+     "description": "Ce film d’animation aborde de manière poétique et percutante les conséquences de la pollution et de la surconsommation. Parfait pour initier les élèves aux enjeux de l’écologie, même les plus jeunes.",
+    "vocab": ["écologie", "robotique", "recyclage", "surconsommation"],
+    "quiz": [
+      {
+        "question": "Pourquoi Wall-E est-il seul sur Terre ?",
+        "choices": ["Une guerre nucléaire", "Une pandémie", "La pollution extrême", "Une invasion extraterrestre"],
+        "answer": "La pollution extrême"
+      }
+    ],
+    "resources": [
+      {
+        "title": "WWF - Pollution et solutions",
+        "url": "https://www.wwf.fr"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Le cercle des poètes disparus",
+    "image": "/f7.jpg",
+    "year": 1989,
+    "theme": "Éducation et créativité",
+    "summary": "Un professeur inspire ses élèves à penser librement et à vivre pleinement par la poésie.",
+     "description": "Une ode à la liberté de pensée, à la poésie et à l’émancipation intellectuelle. Il questionne les méthodes d’enseignement traditionnelles et encourage la créativité en classe.",
+    "vocab": ["carpe diem", "poésie", "liberté", "pédagogie"],
+    "quiz": [
+      {
+        "question": "Que signifie 'Carpe Diem' ?",
+        "choices": ["Crois en Dieu", "Respecte les règles", "Saisis le jour", "Pense au futur"],
+        "answer": "Saisis le jour"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Académie française - Poésie et éducation",
+        "url": "https://www.academie-francaise.fr"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "The Imitation Game",
+    "image": "/f8.jpg",
+    "year": 2014,
+    "theme": "Cryptographie & guerre",
+    "summary": "Alan Turing tente de déchiffrer le code nazi Enigma pendant la Seconde Guerre mondiale.",
+    "description": "Un drame historique sur la cryptographie et la contribution d’Alan Turing, père de l’informatique moderne. Il permet de parler à la fois de mathématiques, de guerre et d’homophobie.",
+    "vocab": ["cryptographie", "ordinateur", "guerre", "Enigma"],
+    "quiz": [
+      {
+        "question": "Quel code Turing essaie-t-il de décrypter ?",
+        "choices": ["Morse", "ASCII", "Enigma", "Binaire"],
+        "answer": "Enigma"
+      }
+    ],
+    "resources": [
+      {
+        "title": "CNRS - L’histoire d’Alan Turing",
+        "url": "https://lejournal.cnrs.fr"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Marie Curie (Radioactive)",
+    "image": "/f9.jpg",
+    "year": 2019,
+    "theme": "Science et femmes",
+    "summary": "La vie de Marie Curie, pionnière de la radioactivité, double lauréate du prix Nobel.",
+       "description": "Une biographie captivante sur la première femme double prix Nobel. Ce film explore la vie d’une pionnière scientifique, ses découvertes et son héritage dans le domaine de la physique et de la chimie.", 
+    "vocab": ["radioactivité", "chimie", "prix Nobel", "découverte"],
+    "quiz": [
+      {
+        "question": "Combien de prix Nobel a-t-elle reçu ?",
+        "choices": ["1", "2", "3", "0"],
+        "answer": "2"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Musée Curie",
+        "url": "https://musee.curie.fr"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "À la recherche du bonheur",
+    "image": "/f10.jpg",
+    "year": 2006,
+    "theme": "Résilience et pauvreté",
+    "summary": "Un homme lutte pour survivre et offrir une meilleure vie à son fils, malgré les difficultés.",
+     "description": "Inspirant et émouvant, ce film montre les défis de la pauvreté et la résilience face aux obstacles. Il incarne la persévérance, l’amour parental et l’ascension sociale grâce à la volonté.",
+    "vocab": ["résilience", "chômage", "espoir", "entrepreneuriat"],
+    "quiz": [
+      {
+        "question": "Quel est le métier que vise Chris ?",
+        "choices": ["Chirurgien", "Vendeur", "Trader", "Professeur"],
+        "answer": "Trader"
+      }
+    ],
+    "resources": [
+      {
+        "title": "INSEE - Pauvreté en France",
+        "url": "https://www.insee.fr"
+      }
+    ] 
+  }
+ ,
+  {
+    "id": 11,
+    "title": "Malala : Le droit des filles",
+    "image": "/f11.jpg",
+    "year": 2015,
+    "theme": "Éducation & droits des femmes",
+    "summary": "L'histoire de Malala Yousafzai, jeune militante pakistanaise pour l'éducation des filles.",
+      "description": "Un documentaire essentiel sur le droit à l’éducation des filles et le combat de Malala. Il stimule les discussions sur l’égalité des genres, le courage et la liberté d’expression.",
+    "vocab": ["droits", "militante", "éducation", "égalité"],
+    "quiz": [
+      {
+        "question": "Pourquoi Malala est-elle devenue célèbre ?",
+        "choices": ["Actrice", "Journaliste", "Militante pour l'éducation", "Athlète"],
+        "answer": "Militante pour l'éducation"
+      }
+    ],
+    "resources": [
+      {
+        "title": "UNICEF - Éducation des filles",
+        "url": "https://www.unicef.org/fr/education"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "The Boy Who Harnessed the Wind",
+    "image": "/f12.jpg",
+    "year": 2019,
+    "theme": "Énergies renouvelables",
+    "summary": "Un adolescent du Malawi construit une éolienne pour sauver son village de la famine.",
+    "description": "L’histoire vraie d’un jeune inventeur africain qui illustre la puissance de l’éducation, de la débrouillardise et des énergies renouvelables face à la crise alimentaire.",
+    "vocab": ["éolienne", "énergie", "ingéniosité", "famine"],
+    "quiz": [
+      {
+        "question": "Quel appareil William invente-t-il ?",
+        "choices": ["Tracteur", "Pompe à eau", "Éolienne", "Filtre à eau"],
+        "answer": "Éolienne"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Énergies renouvelables - EDF",
+        "url": "https://www.edf.fr"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Good Will Hunting",
+    "image": "/f13.jpg",
+    "year": 1997,
+    "theme": "Mathématiques & psychologie",
+    "summary": "Un jeune homme surdoué lutte contre son passé tout en révélant un talent mathématique exceptionnel.",
+      "description": "Une œuvre poignante sur le potentiel intellectuel inexploité, la souffrance psychologique et le mentorat. Elle incite à valoriser les talents cachés et à briser les barrières sociales.",
+    "vocab": ["psychologie", "génie", "mathématiques", "thérapie"],
+    "quiz": [
+      {
+        "question": "Quel est le don principal de Will ?",
+        "choices": ["Musique", "Littérature", "Mathématiques", "Échecs"],
+        "answer": "Mathématiques"
+      }
+    ],
+    "resources": [
+      {
+        "title": "CNRS - Jeunes surdoués",
+        "url": "https://lejournal.cnrs.fr"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Mandela: Un long chemin vers la liberté",
+    "image": "/f14.jpg",
+    "year": 2013,
+    "theme": "Droits humains & politique",
+    "summary": "La vie de Nelson Mandela, de son enfance à sa libération et sa présidence.",
+   "description": "Ce biopic retrace la vie d’un des plus grands leaders politiques du XXe siècle. Il offre une base solide pour enseigner l’histoire de l’Afrique du Sud, la lutte contre l’apartheid et les droits humains.",
+    "vocab": ["apartheid", "prison", "liberté", "égalité"],
+    "quiz": [
+      {
+        "question": "Combien d’années Mandela a-t-il passées en prison ?",
+        "choices": ["12", "18", "27", "30"],
+        "answer": "27"
+      }
+    ],
+    "resources": [
+      {
+        "title": "ONU - Journée Mandela",
+        "url": "https://www.un.org/fr/events/mandeladay"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Le jeu de la dame (The Queen’s Gambit)",
+    "image": "/f15.jpg",
+    "year": 2020,
+    "theme": "Échecs & persévérance",
+    "summary": "Une jeune prodige des échecs lutte contre ses démons intérieurs pour devenir championne.",
+    "description": "Une série fascinante sur le monde des échecs, la discipline et les luttes intérieures. Elle met en avant l’intelligence féminine dans un univers masculinisé, et stimule la logique et la stratégie.",
+    "vocab": ["échecs", "concentration", "stratégie", "compétition"],
+    "quiz": [
+      {
+        "question": "Quel jeu est au centre de cette série ?",
+        "choices": ["Poker", "Backgammon", "Échecs", "Dominos"],
+        "answer": "Échecs"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Fédération internationale des échecs",
+        "url": "https://www.fide.com"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "La vie est belle",
+    "image": "/f16.jpg",
+    "year": 1997,
+    "theme": "Guerre & espoir",
+    "summary": "Un père juif protège son fils dans un camp de concentration en lui faisant croire à un jeu.",
+     "description": "Un film unique qui mêle humour et tragédie dans un contexte de guerre. Il montre le pouvoir de l’imagination et de l’amour paternel face à l’horreur des camps.",
+    "vocab": ["holocauste", "humour", "camp", "espoir"],
+    "quiz": [
+      {
+        "question": "Quel est le ton principal du film malgré le contexte ?",
+        "choices": ["Tragique", "Humoristique", "Violent", "Action"],
+        "answer": "Humoristique"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Fondation Shoah",
+        "url": "https://www.fondationshoah.org"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Spotlight",
+    "image": "/f17.jpg",
+    "year": 2015,
+    "theme": "Journalisme d'investigation",
+    "summary": "Une équipe de journalistes révèle un scandale de pédophilie dans l'Église catholique.",
+    "description": "Une enquête journalistique exemplaire sur un scandale systémique. Ce film valorise le journalisme d’investigation et la quête de vérité face au silence institutionnel.",
+    "vocab": ["enquête", "journalisme", "justice", "abus"],
+    "quiz": [
+      {
+        "question": "Quel journal enquête dans le film ?",
+        "choices": ["New York Times", "Boston Globe", "Le Monde", "The Guardian"],
+        "answer": "Boston Globe"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Reporters sans frontières",
+        "url": "https://rsf.org"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Chernobyl (mini-série)",
+    "image": "/f18.jpg",
+    "year": 2019,
+    "theme": "Nucléaire & vérité scientifique",
+    "summary": "La catastrophe nucléaire de 1986 et les conséquences humaines, politiques et scientifiques.",
+      "description": "Une reconstitution puissante et rigoureuse de la catastrophe nucléaire. Elle explore la science, le mensonge politique et les conséquences humaines à long terme.",
+    "vocab": ["radiation", "explosion", "nucléaire", "urgence"],
+    "quiz": [
+      {
+        "question": "En quelle année a eu lieu l’explosion ?",
+        "choices": ["1984", "1986", "1988", "1990"],
+        "answer": "1986"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Institut de radioprotection (IRSN)",
+        "url": "https://www.irsn.fr"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Le Pianiste",
+    "image": "/f19.jpg",
+    "year": 2002,
+    "theme": "Shoah & musique",
+    "summary": "Un musicien juif tente de survivre à l’occupation nazie à Varsovie.",
+     "description": "Témoignage bouleversant de la Shoah à travers le regard d’un artiste. Il met en lumière l’art comme résistance et la survie dans des conditions inhumaines.",
+    "vocab": ["Shoah", "musique", "résistance", "occupation"],
+    "quiz": [
+      {
+        "question": "Quelle est la passion du héros ?",
+        "choices": ["Peinture", "Danse", "Musique", "Littérature"],
+        "answer": "Musique"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Mémorial de la Shoah",
+        "url": "https://www.memorialdelashoah.org"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Invictus",
+    "image": "/f20.jpg",
+    "year": 2009,
+    "theme": "Sport & unité nationale",
+    "summary": "Nelson Mandela utilise la Coupe du Monde de rugby pour unir une Afrique du Sud divisée.",
+    "description": "Un film inspirant qui lie sport et politique. Mandela s’appuie sur le rugby pour réconcilier un pays déchiré, démontrant le rôle symbolique du sport dans l’unité nationale.",
+    "vocab": ["rugby", "réconciliation", "Mandela", "nation"],
+    "quiz": [
+      {
+        "question": "Quel sport est utilisé dans le film pour unir le pays ?",
+        "choices": ["Football", "Basketball", "Rugby", "Cricket"],
+        "answer": "Rugby"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Nelson Mandela Foundation",
+        "url": "https://www.nelsonmandela.org"
+      }
+    ]
+  }
+]
+ 
+
