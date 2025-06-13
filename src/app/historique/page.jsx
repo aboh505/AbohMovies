@@ -38,9 +38,9 @@ export default function HistoriquePage() {
   };
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-10 mt-32">
-      <div className="flex justify-between items-center mb-6">
-        <h1 className="text-6xl md:text-6xl font-bold text-center">📈 Historique des Quiz</h1>
+    <div className="max-w-6xl mx-auto px-4 py-10 mt-28">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-8">
+        <h1 className="text-4xl md:text-6xl font-bold text-center text-blue-800">📈 Historique des Quiz</h1>
         <button
           onClick={handleLogout}
           className="flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-full transition"
@@ -52,7 +52,7 @@ export default function HistoriquePage() {
 
       {history.length > 0 ? (
         <>
-          <div className="mb-4 flex justify-between items-center">
+          <div className="mb-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-3">
             <p className="text-sm text-gray-600">Total : {history.length} participations</p>
             <button
               onClick={clearAll}
@@ -62,43 +62,68 @@ export default function HistoriquePage() {
             </button>
           </div>
 
-          <table className="w-full border text-sm shadow-sm">
-            <thead className="bg-gray-100 text-gray-700">
-              <tr>
-                <th className="p-2 text-left">Nom</th>
-                <th className="p-2 text-left">Email</th>
-                <th className="p-2 text-left">Score</th>
-                <th className="p-2 text-left">Date</th>
-                <th className="p-2 text-left">Action</th>
-              </tr>
-            </thead>
-            <tbody>
-              {history.map((item, index) => (
-                <tr key={index} className="border-t hover:bg-gray-50">
-                  <td className="p-2">{item.name}</td>
-                  <td className="p-2">{item.email}</td>
-                  <td className="p-2">{item.score}/{item.total}</td>
-                  <td className="p-2">{item.date}</td>
-                  <td className="p-2">
-                    <button
-                      onClick={() => handleDelete(index)}
-                      className="text-red-500 hover:text-red-700"
-                    >
-                      <Trash size={18} />
-                    </button>
-                  </td>
+          {/* Table sur desktop / cartes sur mobile */}
+          <div className="hidden md:block">
+            <table className="w-full border text-sm shadow-sm">
+              <thead className="bg-gray-100 text-gray-700">
+                <tr>
+                  <th className="p-2 text-left">Nom</th>
+                  <th className="p-2 text-left">Email</th>
+                  <th className="p-2 text-left">Score</th>
+                  <th className="p-2 text-left">Date</th>
+                  <th className="p-2 text-left">Action</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {history.map((item, index) => (
+                  <tr key={index} className="border-t hover:bg-gray-50">
+                    <td className="p-2">{item.name}</td>
+                    <td className="p-2">{item.email}</td>
+                    <td className="p-2">{item.score}/{item.total}</td>
+                    <td className="p-2">{item.date}</td>
+                    <td className="p-2">
+                      <button
+                        onClick={() => handleDelete(index)}
+                        className="text-red-500 hover:text-red-700"
+                      >
+                        <Trash size={18} />
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
 
-          <div className="mt-6 bg-gray-100 p-4 rounded-md flex gap-8 justify-center">
+          {/* Mobile version */}
+          <div className="md:hidden space-y-4">
+            {history.map((item, index) => (
+              <div
+                key={index}
+                className="bg-white border rounded-lg shadow p-4 space-y-1"
+              >
+                <p><span className="font-bold">Nom :</span> {item.name}</p>
+                <p><span className="font-bold">Email :</span> {item.email}</p>
+                <p><span className="font-bold">Score :</span> {item.score}/{item.total}</p>
+                <p><span className="font-bold">Date :</span> {item.date}</p>
+                <button
+                  onClick={() => handleDelete(index)}
+                  className="text-red-500 hover:text-red-700 mt-2 inline-flex items-center gap-1"
+                >
+                  <Trash size={16} />
+                  Supprimer
+                </button>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 bg-gray-100 p-4 rounded-md flex flex-col md:flex-row gap-6 justify-center text-center">
             <p className="font-semibold text-green-700">🏆 Meilleur score : {bestScore}</p>
             <p className="font-semibold text-red-700">📉 Pire score : {worstScore}</p>
           </div>
         </>
       ) : (
-        <p className="text-gray-500 text-center">Aucun historique disponible pour le moment.</p>
+        <p className="text-gray-500 text-center text-lg">Aucun historique disponible pour le moment.</p>
       )}
     </div>
   );

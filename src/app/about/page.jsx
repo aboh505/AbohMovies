@@ -134,6 +134,7 @@ export default function AboutPage() {
             />
           </div>
         </motion.div>
+        
 
         {/* 🎓 Appel à l'action */}
         <motion.div
