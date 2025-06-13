@@ -76,7 +76,7 @@ export default function Navbar() {
         {/* Desktop CTA */}
         <div className="hidden md:flex">
           <Link
-            href="/"
+            href="/contact"
             className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-full flex items-center gap-2 text-base font-medium shadow-sm"
           >
             MoviesLearn <ArrowUpRight size={18} />
@@ -123,7 +123,7 @@ export default function Navbar() {
             Le Quiz
           </Link>
           <Link
-            href="/"
+            href="/contact"
             onClick={() => setIsMobileMenuOpen(false)}
             className="block bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-full text-center font-medium mt-2"
           >
