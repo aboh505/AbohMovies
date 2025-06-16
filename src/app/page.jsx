@@ -466,9 +466,9 @@ export default function Page() {
           <div className="text-gray-300 mt-1">
             {movie.releaseDate} • {movie.genre}
           </div>
-          <button className="mt-3 bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded-full text-sm w-full transition">
+          <Link href={'/contact'} className="mt-3 bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded-full text-sm w-full transition">
             Notifier moi
-          </button>
+          </Link>
         </div>
         <div className="absolute top-2 right-2 bg-yellow-500 text-black px-2 py-1 rounded-full text-xs font-bold">
           Bientôt

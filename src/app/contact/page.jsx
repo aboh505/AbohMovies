@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export default function ContactPage() {
   const [form, setForm] = useState({ nom: '', email: '', telephone: '', message: '' });
@@ -13,7 +14,6 @@ export default function ContactPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Enregistre localement
     const messages = JSON.parse(localStorage.getItem('messages')) || [];
     const nouveauMessage = {
       ...form,
@@ -21,18 +21,32 @@ export default function ContactPage() {
     };
     localStorage.setItem('messages', JSON.stringify([...messages, nouveauMessage]));
 
-    // Réinitialise le formulaire + confirmation
     setForm({ nom: '', email: '', telephone: '', message: '' });
     setConfirmation(true);
     setTimeout(() => setConfirmation(false), 3000);
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white px-4 py-10 text-gray-800">
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white px-4 py-10 text-gray-800 relative overflow-hidden">
+      {/* Modal animée */}
+      <AnimatePresence>
+        {confirmation && (
+          <motion.div
+            initial={{ opacity: 0, y: -50, scale: 0.8 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 50, scale: 0.8 }}
+            className="fixed inset-0 flex items-center justify-center z-50"
+          >
+            <div className="bg-white border border-green-400 shadow-xl rounded-xl p-6 w-96 text-center">
+              <p className="text-2xl font-bold text-green-600">✅ Message envoyé avec succès !</p>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       {/* Titre */}
       <div className="text-center mb-14">
         <h1 className="text-5xl font-extrabold text-blue-800">Contactez-nous</h1>
-      
       </div>
 
       {/* Contenu */}
@@ -41,9 +55,7 @@ export default function ContactPage() {
         <div className="space-y-6">
           <div>
             <h2 className="text-3xl font-bold mb-2">Entrer en contact</h2>
-            <p className="text-gray-600">
-              Notre équipe est disponible pour répondre à toutes vos questions dans les plus brefs délais.
-            </p>
+            <p className="text-gray-600">Notre équipe est disponible pour répondre à toutes vos questions dans les plus brefs délais.</p>
           </div>
           <div className="space-y-3 text-lg">
             <p><span className="font-semibold">📞 Téléphone :</span> (+237) 690 558 216</p>
@@ -110,10 +122,6 @@ export default function ContactPage() {
           >
             Envoyer
           </button>
-
-          {confirmation && (
-            <p className="text-3xl text-green-600 mt-2 text-sm font-medium">✅ Message envoyé avec succès !</p>
-          )}
         </form>
       </div>
 

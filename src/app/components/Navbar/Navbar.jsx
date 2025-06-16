@@ -79,7 +79,7 @@ export default function Navbar() {
             href="/contact"
             className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-full flex items-center gap-2 text-base font-medium shadow-sm"
           >
-            MoviesLearn <ArrowUpRight size={18} />
+            Me contacter <ArrowUpRight size={18} />
           </Link>
         </div>
 
@@ -127,7 +127,7 @@ export default function Navbar() {
             onClick={() => setIsMobileMenuOpen(false)}
             className="block bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-full text-center font-medium mt-2"
           >
-            MoviesLearn
+            Me contacter
           </Link>
         </div>
       )}
